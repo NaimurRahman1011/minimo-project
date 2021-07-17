@@ -1,0 +1,240 @@
+/*fonts*/
+@font-face {
+  font-family: PlayfairDisplay-Regular;
+  src: url(../fonts/Playfair_Display/PlayfairDisplay-Regular.ttf);
+}
+@font-face {
+  font-family: MYRIADPRO-REGULAR;
+  src: url(../fonts/myriad-pro/MYRIADPRO-REGULAR.OTF);
+}
+@font-face {
+  font-family: Ubuntu-Light;
+  src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+/*fonts*/
+
+/*common css*/
+body {
+  font-family: PlayfairDisplay-Regular;
+  color: #626262;
+  margin: 0;
+  padding: 0%;
+}
+/*common css*/
+
+/*header start*/
+header {
+  border-bottom: 1px solid #626262;
+}
+.container1 {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+.logo {
+  float: left;
+  width: 10%;
+  margin: 23px;
+}
+.logo img {
+  width: 100%;
+}
+.menu {
+  float: right;
+}
+.menu ul {
+  float: right;
+}
+.menu ul li {
+  float: left;
+  list-style: none;
+  margin: 11px 50px;
+}
+.menu ul li a {
+  font-family: MYRIADPRO-REGULAR;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #626262;
+  transition: 0.3s;
+}
+.menu ul li a:hover {
+  text-decoration: underline;
+}
+.menu ul li:last-child {
+  margin-right: 0;
+}
+/*header end*/
+
+/*banner start*/
+.banner {
+  margin: 85px 0 55px;
+}
+.b_content img {
+  width: 100%;
+}
+/*banner end*/
+
+/*getaway section start*/
+.getaway {
+}
+.container2 {
+  width: 80%;
+  margin: 0 auto;
+}
+.g_content {
+  padding: 0 0 60px;
+}
+.ubuntu {
+  font-family: Ubuntu-Light;
+  font-size: 14px;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  padding-top: 30px;
+}
+h2 {
+  font-size: 30px;
+}
+.ubuntu2 {
+  padding-top: 40px;
+}
+/*getaway section end*/
+
+/*blog section start*/
+.blog {
+}
+.blog_content {
+  overflow: hidden;
+}
+.single_blog {
+  width: 47%;
+  float: left;
+  margin: 3% 0;
+}
+.single_blog:nth-child(even) {
+  margin-left: 5.67%;
+}
+.blog_img {
+}
+.blog_img img {
+  width: 100%;
+}
+
+/*blog section end*/
+
+/*newsletter section start*/
+.container3 {
+  background-color: #f0f0f0;
+}
+.signup {
+  text-align: center;
+  padding: 70px 0;
+}
+.signup h1 {
+  font-family: PlayfairDisplay-Regular;
+  font-size: 30px;
+  color: #333333;
+
+  margin: 0 0 70px;
+}
+.signup form {
+  position: relative;
+  width: 400px;
+  margin: 0 auto;
+}
+.signup input {
+  font-family: PlayfairDisplay-Regular;
+  font-size: 14px;
+  background-color: transparent;
+  width: 345px;
+  height: 25px;
+  border: none;
+  border-bottom: 1px solid #333333;
+  padding-left: 5px;
+  padding-right: 40px;
+}
+.signup input:focus {
+  outline: none;
+}
+.signup button {
+  position: absolute;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  top: 4px;
+  right: 0;
+}
+.signup button:focus {
+  outline: none;
+}
+.signup button img {
+}
+/*newsletter section end*/
+
+/*load section start*/
+.button {
+  text-align: center;
+  margin: 120px 0 170px;
+}
+.button button {
+  font-family: MYRIADPRO-REGULAR;
+  font-size: 20px;
+  color: #626262;
+  cursor: pointer;
+  width: 160px;
+  height: 60px;
+}
+/*load section end*/
+
+/*footer section start*/
+.footer {
+  overflow: hidden;
+  width: 90%;
+  margin: 0 auto;
+}
+.font_style {
+  font-size: 14px;
+  font-weight: 500;
+  color: #000000;
+  margin: 0;
+}
+.f_left {
+  width: 20%;
+  float: left;
+}
+.f_left ul {
+  margin: 20px 0;
+  padding: 0;
+}
+.f_left ul li {
+  list-style: none;
+  float: left;
+  margin: 15px 10px;
+}
+.f_left ul li a {
+  text-decoration: none;
+}
+.f_right {
+  width: 25%;
+  float: right;
+}
+.f_right ul {
+  float: right;
+}
+.f_right ul li {
+  float: left;
+  list-style: none;
+  margin: 18px 10px;
+}
+.f_right ul li p {
+  margin-top: 2px;
+}
+.f_right ul li a {
+  color: #626262;
+  text-decoration: none;
+  font-size: 18px;
+}
+.f_right ul li:last-child {
+  margin-right: 0;
+}
+/*footer section end*/
